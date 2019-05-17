@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hair Salon Database</title>
+</head>
+<body>
+  <div>
+      <h1>Hair Salon Database</h1>
+    <p>Stylist is removed from database</p>
+    <p><a href="/stylists/@Model["stylist"].Id">Back to stylist</a></p>
+    <p><a href="/">Home</a></p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<form action="/stylists/@Model["stylist"].Id/clients/@Model["client"].Id/delete" method="post">
+  <button type="submit">Delete client</button>
